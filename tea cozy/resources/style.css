@@ -1,0 +1,155 @@
+/* all the things */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px;
+}
+
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+
+
+/* top header nav */
+header {
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  height: 70px;
+  background-color: black;
+  z-index: 1;
+  text-decoration: underline;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.logo {
+  text-align: left;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+
+
+/* all content */
+.main {
+  width: 1200px;
+  margin: auto;
+  padding-top: 70px;
+  opacity: 0.9;
+}
+
+
+
+/* mason jar & mantra */
+#mission {
+  background-image: url("/Users/Purchio/Desktop/tea cozy/resources/images/img-mission-background.jpg");
+  padding-top: 70px;
+  height: 700px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+
+
+/* teas */
+#store {
+  padding-top: 70px;
+  width: 1000px;
+  margin: auto;
+  height: 700px;
+}
+
+.item span {
+  padding: 10px;
+  display: block;
+  text-align: center;
+
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  padding: 10px;
+}
+
+
+
+
+/* locations */
+#locations {
+  background-image: url("/Users/Purchio/Desktop/tea cozy/resources/images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location {
+  opacity: 1.0;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px 5px 20px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* cntact info */
+
+.contact {
+  height: 200px;
+  padding-top: 10px;
+}
+
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
